@@ -76,10 +76,21 @@ section {
 
 }
 
+.normal > p {
+
+    padding-bottom: 2.5em;
+
+}
+
 .imagem {
-    
+
+    text-shadow: 1.5px 1.5px 2px black;
     color: white;
-    background-color: rgb(29, 29, 29);
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+
+    box-shadow: inset 5px 5px 15px #00000084;
 
 }
 
@@ -87,13 +98,24 @@ section {
 
     display: inline-block;
 
-    background-color: #000000b4;
+    background-color: #18181864;
 
     padding: 10px;
 
     border-radius: 5px 30px 30px 30px;
 
-    /*flood-opacity: 3%;*/
+}
+
+#im01 {
+
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+
+}
+
+#im02 {
+
+    background-image: url(../imagens/background002.jpg);
 
 }
 
